@@ -22,6 +22,24 @@ public class DashboardPageElements extends CommonMethods{
 	
 	@FindBy (xpath = "//a[@id='menu_admin_viewAdminModule']/b")
 	public WebElement headerAdmin;
+	
+	@FindBy(id="menu_admin_Qualifications")
+	public WebElement Qualifications;
+	
+	@FindBy(id="menu_admin_viewLicenses")
+	public WebElement Licenses;
+	
+	@FindBy(id="menu_admin_viewSkills")
+	public WebElement Skills;
+	
+	@FindBy(id="menu_admin_viewEducation")
+	public WebElement Education;
+	
+	@FindBy(id="menu_admin_viewLanguages")
+	public WebElement Languages;
+	
+	@FindBy(id="menu_admin_membership")
+	public WebElement Membership;
 
 	public DashboardPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);		
