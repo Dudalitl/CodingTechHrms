@@ -17,6 +17,7 @@ public class AddLicensesPage {
 	@FindBy(id="btnSave")
 	public WebElement SaveButton;
 	
+	
 	public AddLicensesPage() {
 		PageFactory.initElements(BaseClass.driver, this);
 	}

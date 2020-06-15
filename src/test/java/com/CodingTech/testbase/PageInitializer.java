@@ -11,6 +11,7 @@ public class PageInitializer extends BaseClass {
 	public static DashboardPageElements dashboard;
 	public static ViewEmployeePageElements viewEmp;
 	public static AddLicensesPage addLicense;
+	
 
 	public static void initialize() {
 

@@ -40,6 +40,7 @@ public class DashboardPageElements extends CommonMethods{
 	
 	@FindBy(id="menu_admin_membership")
 	public WebElement Membership;
+	
 
 	public DashboardPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);		

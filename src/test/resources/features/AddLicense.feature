@@ -1,8 +1,6 @@
 #Author: Yuri
 Feature: add different licenses in qualifications
 
-
-
   Scenario: add different licenses in qualifications
     Given user is logged with valid admin credentials
     When user navigate to Licenses

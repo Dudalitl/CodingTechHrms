@@ -33,6 +33,7 @@ public class AddLicense extends CommonMethods {
 	@When("user click save button")
 	public void user_click_save_button() {
 		click(addLicense.SaveButton);
+		
 	}
 
 	@Then("user check license {string} is displayed")
