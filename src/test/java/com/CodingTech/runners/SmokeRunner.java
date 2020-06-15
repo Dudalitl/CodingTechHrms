@@ -8,11 +8,11 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/resources/features/",
-		glue="com/CodingTechHrms/steps",
-		dryRun=true,
+		glue= "com/CodingTech/steps",
+		//dryRun=false,
 		monochrome=true,
 		strict=true,
-		//tags="@Smoke",
+		tags="@smoke",
 		plugin= {
 				"pretty",
 				"html:target/cucumber-default-report",
